@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -33,14 +34,14 @@ export default function CoinGirlfriend() {
   };
 
   return (
-    <div className="min-h-screen bg-zinc-900 text-white p-4 flex flex-col items-center justify-center">
+    <div className="min-h-screen bg-zinc-900 text-white p-4 flex flex-col items-center justify-center font-sans">
       <motion.h1 
         initial={{ opacity: 0, y: -20 }} 
         animate={{ opacity: 1, y: 0 }} 
         transition={{ duration: 0.6 }}
         className="text-3xl font-bold text-pink-400 mb-6"
       >
-        💗 코인여친 CoinGirlfriend 💗
+        ❤️ 코인여친 CoinGirlfriend ❤️
       </motion.h1>
 
       <Card className="w-full max-w-md bg-zinc-800 border-zinc-700 mb-6">
